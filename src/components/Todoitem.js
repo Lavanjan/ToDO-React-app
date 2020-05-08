@@ -31,7 +31,11 @@ export class Todoitem extends Component {
 }
 
 Todoitem.propTypes = {
-    todo: PropTypes.object.isRequired
+    todo: PropTypes.object.isRequired,
+    markComplete: PropTypes.object.isRequired,
+    delTodo: PropTypes.object.isRequired,
+    
+    
 }
 
 const btnStyle = {
